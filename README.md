@@ -12,3 +12,7 @@ The Lesson plan and code for my lesson will be updated every week on Monday nigh
 + Variable naming conventions
 
 ## Lesson 2 10/04/2021
+
+
+
+- Email hwy4012@gmail.com for personal zoom session python lessons. Private lessons are held through zoom. Private lessons are $40 per hour.
