@@ -12,7 +12,25 @@ The Lesson plan and code for my lesson will be updated every week on Monday nigh
 + Variable naming conventions
 
 ## Lesson 2 10/04/2021
++ Filename: Lesson2.py 
++ Integers 
++ Floats 
++ Operations 
+  + Addition 
+  + Subtraction
+  + Multiplication
+  + Division
 
+### Homework 1
+ 1. add two numbers 
+
+ 2. minus two numbers 
+
+ 3. divide two numbers
+
+ 4. multiply two numbers 
+
+ 5. add up all the results from questions 1~4 and print out the result.
 
 ### Contacts
 Email hwy4012@gmail.com for personal zoom session python lessons. Private lessons are held through zoom. Private lessons are $40 per hour.
