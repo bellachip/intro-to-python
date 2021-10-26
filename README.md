@@ -12,6 +12,19 @@ link: https://replit.com/
 ### Python
 Please install python from 
 
+
+## Contents 
++ [Lesson1](https://github.com/bellachip/intro-to-python#lesson-1-9272021) 
+  + [Lesson1.py](https://github.com/bellachip/intro-to-python/blob/main/Lesson%201.py)
++ [Lesson2](https://github.com/bellachip/intro-to-python#lesson-2-10042021)
+  + [Lesson2.py](https://github.com/bellachip/intro-to-python/blob/main/Lesson2.py)
++ [Lesson3](https://github.com/bellachip/intro-to-python#lesson-3-10112021)
+  + [Lesson3.py](https://github.com/bellachip/intro-to-python/blob/main/Lesson3.py)
++ [Lesson4](https://github.com/bellachip/intro-to-python#lesson-4-10112021)
+  + [Lesson4.py](https://github.com/bellachip/intro-to-python/blob/main/Lesson4.py)
++ [Lesson5](https://github.com/bellachip/intro-to-python#lesson-5-10252021)
+  + [Lesson5.py](https://github.com/bellachip/intro-to-python/blob/main/Lesson5.py)
+
 ## Lesson 1 9/27/2021
 + print statements 
 + What is a function?
