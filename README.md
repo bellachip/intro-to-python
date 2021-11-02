@@ -96,6 +96,19 @@ One of the most used data structure is a List. Lists allows to store an object (
 6. Using a for loop and .append() method append 2 more animals in the list. print the appended list 
 7. Clear all the elements in the list and print the cleared list
 
+## Lesson 6 11/1/2021
+In Lesson 6 we learn about if statements. If statenments are used to check a condition or compare values. 
+
+### Homework 6 
+a = 2
+b = 3
+c = 5
+d = 6; 
+Animal_list=["koala", "fox", "panda", "chipmunk", "sloth", "penguin", "dolphin"]
+
+1. check if 'a' is equal to 'b'
+2. Check if the value of 'd/a' is greater than 2 if not print false 
+3. check if sloth and penguin exists in the Animal_list.
 
 ### Contacts
 Email hwy4012@gmail.com for personal zoom session python lessons. Private lessons are held through zoom. Private lessons are $40 per hour.
