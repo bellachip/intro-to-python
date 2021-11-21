@@ -99,6 +99,7 @@ One of the most used data structure is a List. Lists allows to store an object (
 ## Lesson 6 11/1/2021
 In Lesson 6 we learn about if statements. If statenments are used to check a condition or compare values. 
 
+
 ### Homework 6 
 a = 2
 b = 3
@@ -109,6 +110,185 @@ Animal_list=["koala", "fox", "panda", "chipmunk", "sloth", "penguin", "dolphin"]
 1. check if 'a' is equal to 'b'
 2. Check if the value of 'd/a' is greater than 2 if not print false 
 3. check if sloth and penguin exists in the Animal_list.
+
+## Lesson 7 11/8/2021
+
+### If statement
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/Python_if_statement.jpg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+
+# If the number is positive, we print an appropriate message
+In Python, the body of the if statement is indicated by the indentation. The body starts with an indentation and the first unindented line marks the end.
+```ruby
+num = 3
+if num > 0:
+    print(num, "is a positive number.")
+print("This is always printed.")
+
+num = -1
+if num > 0:
+    print(num, "is a positive number.")
+print("This is also always printed.")
+```
+```
+3 is a positive number
+This is always printed
+This is also always printed.
+```
+
+### If else statement
+
+
+Python Conditions and If statements
+Python supports the usual logical conditions from mathematics:
+
++ Equals: a == b
++ Not Equals: a != b
++ Less than: a < b
++ Less than or equal to: a <= b
++ Greater than: a > b
++ Greater than or equal to: a >= b
+
+
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/Python_if_else_statement.jpg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+### If... elif... else statement
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/Python_if_elif_else_statement.jpg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+## Lesson 8 11/21/2021
+### Python Casting
+There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
+
+Casting in python is therefore done using constructor functions:
+
++ int() - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)
++ float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
++ str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
+
++ x = int(1)   # x will be 1
++ y = int(2.8) # y will be 2
++ z = int("3") # z will be 3
++ x = float(1)     # x will be 1.0
++ y = float(2.8)   # y will be 2.8
++ z = float("3")   # z will be 3.0
++ w = float("4.2") # w will be 4.2
++ x = str("s1") # x will be 's1'
++ y = str(2)    # y will be '2'
++ z = str(3.0)  # z will be '3.0'
+
+
+### Slicing Strings
+You can return a range of characters by using the slice syntax.
+
+Specify the start index and the end index, separated by a colon, to return a part of the string.
+
+Get the characters from position 2 to position 5 (not included):
+
++ b = "Hello, World!"
+print(b[2:5])
+
+Get the characters from the start to position 5 (not included):
+
++ b = "Hello, World!"
+print(b[:5])
+
+Get the characters from position 2, and all the way to the end:
+
++ b = "Hello, World!"
+print(b[2:])
+
+#### Negative Indexing
+Use negative indexes to start the slice from the end of the string:
+
+
+Get the characters:
+
+From: "o" in "World!" (position -5)
+
+To, but not included: "d" in "World!" (position -2):
+
++ b = "Hello, World!"
+print(b[-5:-2])
+
+
+### Modify Strings
+Python has a set of built-in methods that you can use on strings.
+#### Upper Case 
+The upper() method returns the string in upper case:
+
+a = "Hello, World!"
+print(a.upper())
+#### Lower Case
+The lower() method returns the string in lower case:
+
+a = "Hello, World!"
+print(a.lower())
+#### Remove Whitespace
+The strip() method removes any whitespace from the beginning or the end:
+
+a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!
+#### Replace String
+The replace() method replaces a string with 
+another string:
+a = "Hello, World!"
+print(a.replace("H", "J")) 
+#### Split String
+The split() method splits the string into substrings if it finds instances of the separator:
+
+a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!']
+
+
+### While Loops 
+With the while loop we can execute a set of statements as long as a condition is true.
+
+Example
+Print i as long as i is less than 6:
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+
+
+
+The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.
+
+
+The break Statement
+With the break statement we can stop the loop even if the while condition is true:
+
+Example
+Exit the loop when i is 3:
+
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+
+
+### Homework 8
+a = "4.2"
+
+b = "Modyfing strings is very easy and fun."
+
+1. Convert 'a' to a float
+2. Slice the string 'a' from 0 to 1 
+3. Using string slicing, print out only the word 'strings' in 'b'
+4. Split string where the "." is in 'a'. 
+5. Split string where all the 'i' is in 'b'. 
+6. split string where all the ' ' space is in 'b'.
+7. Example Print i as long as i is less than 6 using while loop
+
 
 ### Contacts
 Email hwy4012@gmail.com for personal zoom session python lessons. Private lessons are held through zoom. Private lessons are $40 per hour.
