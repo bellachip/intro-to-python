@@ -289,6 +289,122 @@ b = "Modyfing strings is very easy and fun."
 6. split string where all the ' ' space is in 'b'.
 7. Example Print i as long as i is less than 6 using while loop
 
+## Lesson 9
+A function is a block of code which only runs when it is called.
+
+You can pass data, known as parameters, into a function.
+
+A function can return data as a result.
+
+#### 1. Creating a function
+
+In Python a function is defined using the def keyword:
+
+Example
+def my_function():
+  print("Hello from a function")
+
+#### 2. Calling a function
+To call a function, use the function name followed by parenthesis:
+
+Example
+def my_function():
+  print("Hello from a function")
+
+my_function()
+
+#### 3. Arguments
+Information can be passed into functions as arguments.
+
+Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
+
+The following example has a function with one argument (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:
+
+Example
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+
+
+### Homework 9
+
+1. 
+2. 
+Create a function that finds the index of a given item.
+
+Examples
+search([1, 5, 3], 5) ➞ 1
+
+search([9, 8, 3], 3) ➞ 2
+
+search([1, 2, 3], 4) ➞ -1
+Notes
+If the item is not present, return -1.
+
+## Lesson 10
+Continuing function definitions 
+
+
+### Homework 10 
+given_list = [1,2,3,4,5,6,7,8]
+
+1. Write a Python function to sum all the numbers in a list.
+
+#### def sum(number_list):
+
+2. Write a Python program to print the even numbers from a givenlist
+#### def even_num(number_list):
+
+
+## Lesson 11 12/06/2021
+What is recursion?
+
+Recursion is the process of defining something in terms of itself.
+
+A physical world example would be to place two parallel mirrors facing each other. Any object in between them would be reflected recursively.
+
+following is an example of a recursive function to find the factorial of an integer.
+
+Factorial of a number is the product of all the integers from 1 to that number. For example, the factorial of 6 (denoted as 6!) is 1*2*3*4*5*6 = 720.
+
+```python
+def factorial(x):
+    """This is a recursive function
+    to find the factorial of an integer"""
+
+    if x == 1:
+        return 1
+    else:
+        return (x * factorial(x-1))
+
+num = 3
+print("The factorial of", num, "is", factorial(num))
+```
+
+#### output
+```
+The factorial of 3 is 6
+```
+
+```
+factorial(3)          # 1st call with 3
+3 * factorial(2)      # 2nd call with 2
+3 * 2 * factorial(1)  # 3rd call with 1
+3 * 2 * 1             # return from 3rd call as number=1
+3 * 2                 # return from 2nd call
+6                     # return from 1st call
+```
+#### Advantages of Recursion
+1. Recursive functions make the code look clean and elegant.
+2. A complex task can be broken down into simpler sub-problems using recursion.
+3. Sequence generation is easier with recursion than using some nested iteration.
+#### Disadvantages of Recursion
+1. Sometimes the logic behind recursion is hard to follow through.
+2. Recursive calls are expensive (inefficient) as they take up a lot of memory and time.
+3. Recursive functions are hard to debug.
 
 ### Contacts
 Email hwy4012@gmail.com for personal zoom session python lessons. Private lessons are held through zoom. Private lessons are $40 per hour.
